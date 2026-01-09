@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/bg_gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YOUR IQ\nTest"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="60dp"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/btnKhmer"
+        android:text="ភាសាខ្មែរ"
+        android:backgroundTint="#2ECC71"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:drawableLeft="@drawable/ic_flag_cambodia"
+        android:paddingLeft="20dp"/>
+
+    <Button
+        android:id="@+id/btnEnglish"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2ECC71"
+        android:drawableLeft="@drawable/ic_flag_uk_round"
+        android:paddingLeft="20dp"
+        android:text="English" />
+
+</LinearLayout>
